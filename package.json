@@ -11,5 +11,9 @@
   "dependencies": {
     "express": "^4.12.4",
     "express-generator": "^4.12.4"
+},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonzielen/secondNodeTest.git"
   }
 }

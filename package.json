@@ -1,0 +1,15 @@
+{
+  "name": "second_node_test",
+  "version": "0.0.0",
+  "description": "A node test!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Z.",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.4",
+    "express-generator": "^4.12.4"
+  }
+}

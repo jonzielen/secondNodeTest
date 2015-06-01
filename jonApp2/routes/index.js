@@ -6,16 +6,16 @@ router.get('/', function(req, res, next) {
   res.render('index', {
       homepage: true,
       title: 'The best website ever!',
-      bodyClass:'page homepage',
-      jom: 'jom',
-      second: 'test 33333'
+      bodyClass:'homepage',
+      jom: 'second title',
+      second: '33333'
      });
 });
 
 /* GET test page. */
 router.get('/test', function(req, res, next) {
   res.render('test', {
-      bodyClass:'page test'
+      bodyClass:'test'
   });
 });
 

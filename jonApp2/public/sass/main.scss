@@ -92,7 +92,7 @@ textarea {
    ========================================================================== */
 body {
    background-color: #ccc;
-   padding:10px;
+   @include padding-margin(0,0);
 }
 
 h1,h2,h3,h4,h5,h5 {
@@ -100,6 +100,11 @@ h1,h2,h3,h4,h5,h5 {
 }
 p, ul {
     @include padding-margin(0 0 6px,0);
+}
+
+.wrapper {
+    max-width:1200px;
+    margin:0 auto;
 }
 
 header {
